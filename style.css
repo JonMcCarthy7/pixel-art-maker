@@ -1,0 +1,46 @@
+body {
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2f80ed,
+    #56ccf2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2f80ed,
+    #56ccf2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#canvas {
+  width: 27em;
+  height: 25em;
+  border: 1px solid slategray;
+  margin: 0 auto;
+}
+
+.box {
+  width: 1em;
+  height: 1em;
+  border: 1px solid black;
+  margin: 0.05em;
+  padding: 0;
+  float: left;
+  background-color: #fff;
+}
+
+.pallet-box {
+  width: 2em;
+  height: 2em;
+  border: 1px solid black;
+  margin: 0.05em;
+  padding: 0;
+  float: left;
+  background-color: #fff;
+}
+
+#pallet {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid slategray;
+  margin: 0 auto;
+}
